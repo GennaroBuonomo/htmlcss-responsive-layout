@@ -1,5 +1,5 @@
 /* Soluzione qui */
-@media screen and (min-width: 769px) {
+@media all and (min-width: 769px) {
   #topbar {
     display: flex;
     justify-content: left;
@@ -13,6 +13,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .recipe-video iframe {
+    width: 100%;
   }
 
   .recipe-origin {
@@ -41,4 +49,39 @@
     margin-right: 20px;
   }
 
+}
+
+@media all and (min-width: 993px) {
+  h2 {
+    font-size: 45px;
+  }
+
+  ul {
+    display: block;
+  }
+
+  .recipe-video iframe {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    padding: 5px 40px;
+    display: flex;
+
+  }
+
+  .social-networks .label {
+    display: block;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  address {
+    text-align: left;
+  }
 }
