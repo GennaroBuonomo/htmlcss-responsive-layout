@@ -5,4 +5,13 @@
     justify-content: left;
   }
 
+  main {
+    padding: 40px;
+  }
+
+  .recipe-origin {
+    display: block;
+    margin: 0px 10px;
+  }
+
 }
