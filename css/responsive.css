@@ -60,11 +60,6 @@
     display: block;
   }
 
-  .recipe-video iframe {
-    display: flex;
-    flex-direction: column;
-  }
-
   .btn {
     padding: 5px 40px;
     display: flex;
