@@ -28,6 +28,11 @@
 
   .ads {
     display: block;
+    margin-bottom: 130px;
+  }
+
+  img {
+    float: left;
   }
 
 }
