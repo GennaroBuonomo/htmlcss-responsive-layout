@@ -18,4 +18,12 @@
     display: flex;
   }
 
+  .quick-notes {
+    display: grid;
+  }
+
+  .btn {
+    padding: 10px 50px;
+  }
+
 }
