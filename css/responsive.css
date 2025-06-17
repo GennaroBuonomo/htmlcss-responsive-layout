@@ -28,11 +28,11 @@
 
   .ads {
     display: block;
-    margin-bottom: 130px;
   }
 
-  img {
+  .presentation img {
     float: left;
+    margin-right: 20px;
   }
 
 }
